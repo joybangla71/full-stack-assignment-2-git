@@ -52,7 +52,7 @@
 #### Part 4: Merge Branches
 
 11. **Merge the Feature Branch:**
-    - Switch to the `main` branch and merge the `feature/added-learnings` branch.
+    - Switch to the `main` branch and merge the `feature/new-learnings` branch.
     ```bash
     git checkout main
     git pull origin main
@@ -60,7 +60,7 @@
     ```
 
 12. **Merge the new feature Branch:**
-    - Merge the `feature/new-learnings` branch into the `main` branch. If there are any conflicts, resolve them.
+    - Merge the `feature/added-learnings` branch into the `main` branch. If there are any conflicts, resolve them.
     ```bash
     git merge feature/added-learnings
     ```
