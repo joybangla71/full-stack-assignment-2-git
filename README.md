@@ -14,7 +14,7 @@
 #### Part 2: Create a Feature Branch
 
 3. **Create a New Branch:**
-   - Create and switch to a new branch named `feature/added-learnings`.
+   - Create and switch to a new branch named `feature/new-learnings`.
 
 4. **Create and Update a Readme:**
    - Create the `learnings.md` file and add a section titled "5 Things I have learned about Git and GitHub" with a brief description.
@@ -24,7 +24,7 @@
    ```bash
    git add learnings.md
    git commit -m "Add Project Overview section to learnings.md"
-   git push origin feature/added-learnings
+   git push origin feature/new-learnings
    ```
 
 #### Part 3: Create an Issue and Add few more features
@@ -33,7 +33,7 @@
    - On GitHub, create an issue titled "2 more things I have learnt".
 
 7. **Create another feature Branch:**
-   - Create and switch to a new branch named `feature/new-learnings`.
+   - Create and switch to a new branch named `feature/added-learnings`.
 
 8. **Add the new features:**
    - In the ` learnings.md` file, add 2 more of your learnings.
@@ -42,8 +42,8 @@
    - Add, commit, and push your changes to the remote repository.
    ```bash
    git add learnings.md
-   git commit -m "added 2 more features in README"
-   git push origin feature/new-learnings
+   git commit -m "added 2 more features in learnings.md"
+   git push origin feature/added-learnings
    ```
 
 10. **Close the Issue:**
@@ -56,13 +56,13 @@
     ```bash
     git checkout main
     git pull origin main
-    git merge feature/added-learnings
+    git merge feature/new-learnings
     ```
 
 12. **Merge the new feature Branch:**
     - Merge the `feature/new-learnings` branch into the `main` branch. If there are any conflicts, resolve them.
     ```bash
-    git merge feature/new-learnings
+    git merge feature/added-learnings
     ```
 
     If there are conflicts:
